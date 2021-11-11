@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    padding: 3%;
+    text-align: center;
+    border: 1px solid #000 
+}
+
+.header h1{
+    margin-bottom: 2%;
+}
+
+.header p{
+    
+    margin-bottom: 1%;
+}
+
+.main{
+    padding: 3%;
+    border: 1px solid #000
+
+}
+
+.main__members{
+    text-align: center;
+    border: 1px solid #000;
+    padding: 3%;
+}
+
+.main__members h1{
+    margin-bottom: 5%;
+}
+
+.main__members p{
+    margin-bottom: 2%;
+}
+
+.main__firstline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.main__firstline-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3%
+}
+
+.main__firstline-item img{
+    width: 212px;
+    height: 282px;
+}
+
+.main__firstline-item p{
+    margin-top: 4%;
+}
+
+.main__secondline{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.main__secondline-item{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-right: 3%;
+}
+
+.main__secondline-item p{
+    margin-top: 4%;
+}
+
+.main__secondline-item img{
+    width: 212px;
+    height: 282px;
+}
+
+.main__work h1{
+    margin-bottom: 5%;
+}
+
+.main__work h1{
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+
+.main__work ol li {
+    margin-bottom: 1%;
+}
+
+.main__work{
+    border: 1px solid #000;
+    padding: 3%;
+    margin-top: 2%
+}
+
+.main__result{
+    border: 1px solid #000;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+.main__result h1{
+    padding: 5%;
+    text-align: center;
+}
+
+.main__result ol li {
+    margin-bottom: 1%;
+}
+
+.main__result-item{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0%
+}
+
+.main__result-item img{
+    margin: 0 auto;
+}
+
+.main__result-item a{
+    margin-top: 2%;
+    text-align: center;
+}
